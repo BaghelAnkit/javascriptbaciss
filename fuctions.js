@@ -16,3 +16,12 @@ function add(a, b) {
 
 }
 add(5, 6) //passing 5,6 as  arguement
+    /**
+     * @description function having two perameter ans returning their addtion
+     */
+function test2(a, b) {
+    let c = a + b
+    return c
+}
+// let d = test2(4, 3)
+console.log(test2(4, 3))
