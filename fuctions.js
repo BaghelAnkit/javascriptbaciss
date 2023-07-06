@@ -25,3 +25,15 @@ function test2(a, b) {
 }
 // let d = test2(4, 3)
 console.log(test2(4, 3))
+    /**
+     * @description function having three perameter two inter and one string returning addtion with concatinated string
+     */
+function test3(a, b, c) {
+    // let d = a + b + 'ankit' + c
+    let d = `${a+b}ankit${c}`
+    return d
+}
+
+let e = test3(2, 3, 'ankit')
+
+console.log(e)
