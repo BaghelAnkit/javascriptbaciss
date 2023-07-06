@@ -37,3 +37,17 @@ function test3(a, b, c) {
 let e = test3(2, 3, 'ankit')
 
 console.log(e)
+
+
+/**
+ * @description function having three perameter with default value and one string returning addtion with concatinated string
+ */
+function test4(a, b, c = 'abhi') {
+    // let d = a + b + 'ankit' + c
+    let d = `${a+b}${c}`
+    return d
+}
+
+let f = test4(2, 4, 'ankit')
+
+console.log(f)
